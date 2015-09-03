@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <modules>
-        <Earthboundco_CatalogImageQuality>
+        <Earthboundco_CatalogImageHelper>
             <active>True</active>
             <codePool>community</codePool>
-        </Earthboundco_CatalogImageQuality>
+        </Earthboundco_CatalogImageHelper>
     </modules>
 </config>
 

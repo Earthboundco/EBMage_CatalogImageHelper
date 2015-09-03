@@ -1,13 +1,13 @@
 {
-    "name":"Earthboundco/EBMage_CatalogImageQuality",
+    "name":"Earthboundco/EBMage_CatalogImageHelper",
     "type":"magento-module",
     "require":{
         "magento-hackathon/magento-composer-installer":"*"
     },
     "extra":{
         "map":[
-            ["app/etc/modules/Earthboundco_CatalogImageQuality.xml", "app/etc/modules/Earthboundco_CatalogImageQuality.xml"],
-            ["app/code/community/Earthboundco/CatalogImageQuality/", "app/code/community/Earthboundco/CatalogImageQuality/"]
+            ["app/etc/modules/Earthboundco_CatalogImageHelper.xml", "app/etc/modules/Earthboundco_CatalogImageHelper.xml"],
+            ["app/code/community/Earthboundco/CatalogImageHelper/", "app/code/community/Earthboundco/CatalogImageHelper/"]
         ]
     }
 }

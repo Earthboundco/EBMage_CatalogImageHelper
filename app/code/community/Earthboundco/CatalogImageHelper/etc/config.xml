@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Earthboundco_CatalogImageHelper>
+            <version>0.0.1</version>
+        </Earthboundco_CatalogImageHelper>
+    </modules>
+    <global>
+        <helpers>
+        </helpers>
+    </global>
+</config>
