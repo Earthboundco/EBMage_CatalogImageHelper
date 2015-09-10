@@ -1,12 +1,14 @@
 <?php
 
-class Earthboundco_Catalog_Helper_Image extends Mage_Catalog_Helper_Image
+class Earthboundco_CatalogImageHelper_Helper_Image extends Mage_Catalog_Helper_Image
 {
     public function __toString()
     {
         try {
-            // TODO: CORE HACK
-            $model = $this->_getModel()->setQuality(95);
+            $model = $this->_getModel();
+
+            // This is the only addition. All this hassle for one line. Ah, Magento.
+            $model->setQuality(90);
 
             if ($this->getImageFile()) {
                 $model->setBaseFile($this->getImageFile());
@@ -37,4 +39,3 @@ class Earthboundco_Catalog_Helper_Image extends Mage_Catalog_Helper_Image
         return $url;
     }
 }
-
