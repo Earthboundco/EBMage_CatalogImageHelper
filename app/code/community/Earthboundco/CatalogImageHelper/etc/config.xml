@@ -9,7 +9,7 @@
         <helpers>
             <catalog>
                 <rewrite>
-                    <image>Earthboundco_Catalog_Helper_Image</image>
+                    <image>Earthboundco_CatalogImageHelper_Helper_Image</image>
                 </rewrite>
             </catalog>
         </helpers>
