@@ -7,8 +7,6 @@ class Earthboundco_CatalogImageHelper_Helper_Image extends Mage_Catalog_Helper_I
         try {
             $model = $this->_getModel();
 
-            Mage::log("Hello");
-
             // This is the only addition. All this hassle for one line. Ah, Magento.
             $model->setQuality(90);
 
